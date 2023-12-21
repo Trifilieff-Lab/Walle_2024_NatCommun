@@ -1,0 +1,6 @@
+Events Time_msec
+exp_start 60000
+stimA   65000
+stimA   70000
+stimA   75000
+injection 120000

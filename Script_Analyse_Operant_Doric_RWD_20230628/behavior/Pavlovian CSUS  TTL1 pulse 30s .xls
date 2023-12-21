@@ -1,0 +1,14 @@
+Tps av tout(ms):																											
+Tps max(mn):15																											
+Pel/Inj max:																											
+Cage Yoked:																											
+OffsetFz(ms):1000																											
+Tps injection(s):																											
+Remarque:																											
+DEB
+	TI	TJ	TK	TL	HLED(1,1)	LED1(1,2)	LED2(1,3)	LED3(1,4)	LED4(1,5)	LED5(1,6)	L1(2,1)	L2(2,2)	LK1(5,1)	SND(6,2)	TOP(6,6)	RD(6,11)	STR1(13,1)	STR2(13,2)	TTLP1(15,1)	TTLP2(15,2)	TTLP3(15,3)	TTLP4(15,4)	NEXT1	NEXT2	NEXT3	CT1	CT2
+1	100																		ON(100,29900,1000,1)				!TI				
+2	30000	_START			ON	!ON	!ON							!ON									!TI				
+3	3000	_CS	2995			ON(F1)	ON(F1)							ON(F1)						!TK.LK1_V=1(200)	ON(300)		!TI				
+4	7000	_US											ON(1)							LK1_X=1(200)		ON(400)	!TI.LK1_P=0(2)	!TI.LK1_P=1			
+5						!ON	!ON							!ON						LK1_X=1(200)			!TI.LK1_P=0(2)	!TI.LK1_P=1(5)			
